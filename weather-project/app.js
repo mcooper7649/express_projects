@@ -1,5 +1,5 @@
 const https = require("https");
-const express = require("express");   //Default express confiration needed
+const express = require("express");   //Default express configuration needed
 const bodyParser = require("body-parser")
 const app = express();
 

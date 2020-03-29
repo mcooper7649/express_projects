@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+ <html> 
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+       
+       <h1> <%= kindOfDay %> </h1>
+       <ul>
+          <% for (var i = 0; i<newListItems.length; i++){ %>
+               <li><%= newListItems[i] %></li>
+               <%  } %>
+       </ul>
+       <form action="/" method="post">
+           <input name="newItem" type="text" placeholder="add list item"> </input>
+           <button name="submit" type="submit">Add</button>
+       </form>
+        
+        <script src="" async defer></script>
+    </body>
+</html>
